@@ -1,4 +1,4 @@
-from src.errors import SizeError, SlotError, CarError, FileError
+from .errors import SizeError, SlotError, CarError, FileError
 
 class parking(object):
     def __init__(self):
